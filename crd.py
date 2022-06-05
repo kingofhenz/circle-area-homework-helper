@@ -1,4 +1,4 @@
-print("A program for calculate the Area,Diameter and Circumference of a circle if Radius is known")
+print("A program for calculate the Area,Diameter and Circumference of a circle if Radius, diameter, or circumference is known")
 print("******************************************************************************************")
 while True:
     pi = 3.141592653589793238462643383279
