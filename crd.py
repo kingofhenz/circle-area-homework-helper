@@ -27,5 +27,5 @@ while True:
         print("The area of the circle is: " + str(area))
         radius = irf / (2 * pi)
         diameter = 2 * radius
-        print("The diameter of the circle is: " + diameter)
+        print("The diameter of the circle is: " + str(diameter))
         print("******************************************************************************************")
