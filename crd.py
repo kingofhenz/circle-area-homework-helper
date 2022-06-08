@@ -25,7 +25,7 @@ while True:
         irf = float(irf)
         area = irf / pi / 2 * pi 
         print("The area of the circle is: " + str(area))
-        radius = circumference / (2 * pi)
+        radius = irf / (2 * pi)
         diameter = 2 * radius
         print("The diameter of the circle is: " + diameter)
         print("******************************************************************************************")
