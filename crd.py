@@ -2,7 +2,7 @@ print("A program for calculate the Area,Diameter and Circumference of a circle i
 print("******************************************************************************************")
 while True:
     pi = 3.14
-    crd = input("do you have the circumfrence, radius, or diameter: ")
+    crd = input("do you have the circumference, radius, or diameter: ")
     irf = float(input("Enter the " + crd  + " " + "of the circle: "))
     if crd == "radius":
         crd = float(irf)
@@ -21,7 +21,7 @@ while True:
         circumference = 2 * pi * radius
         print("The circumference of the circle is: " + str(circumference))
         print("******************************************************************************************")
-    if crd == "circumfrence":
+    if crd == "circumference":
         irf = float(irf)
         area = irf / pi / 2 * pi 
         print("The area of the circle is: " + str(area))
@@ -29,3 +29,5 @@ while True:
         diameter = 2 * radius
         print("The diameter of the circle is: " + str(diameter))
         print("******************************************************************************************")
+    if crd != "circumference" and crd != "diameter" and crd != "radius":
+        return "error"
