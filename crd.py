@@ -1,7 +1,7 @@
 print("A program for calculate the Area,Diameter and Circumference of a circle if Radius, diameter, or circumference is known")
 print("******************************************************************************************")
+pi = 3.14
 while True:
-    pi = 3.14
     crd = input("do you have the circumference, radius, or diameter: ")
     irf = float(input("Enter the " + crd  + " " + "of the circle: "))
     if crd == "radius":
